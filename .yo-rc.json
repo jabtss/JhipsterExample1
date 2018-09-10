@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jose.prueba2",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "monolith",
+    "baseName": "Prueba2",
+    "packageName": "com.jose.prueba2",
+    "packageFolder": "com/jose/prueba2",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTc2M2NkMDI4ZTIzNDEzMjkzODhjYWZkNTI2ZWYyNGFhN2RmZGZhNGUzYWMwZDVkYTI4ODY4MjdiMGQzMzgwMWIxNDhhZGI2MzQ3YTAwMzZhMjJlMzAyOGFlOGU5ZTQwMDFlYzJhZDc1NmI3YmIxYjIyNjVjODQ5NTNiNzc1MWU=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ]
+  }
+}
