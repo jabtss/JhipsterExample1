@@ -32,7 +32,7 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:file:./target/h2db/db/prueba2;DB_CLOSE_DELAY=-1
+        url: jdbc:h2:file:./db/prueba2;DB_CLOSE_DELAY=-1
         username: Prueba2
         password:
         hikari:
