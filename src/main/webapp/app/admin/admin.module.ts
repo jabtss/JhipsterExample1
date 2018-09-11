@@ -21,11 +21,14 @@ import {
     JhiDocsComponent,
     JhiTrackerComponent
 } from './';
+import { PaginaPruebaComponent } from './pagina-prueba/pagina-prueba.component';
+import { DragulaModule, DragulaService } from 'ng2-dragula';
 
 @NgModule({
     imports: [
         Prueba2SharedModule,
-        RouterModule.forChild(adminState)
+        RouterModule.forChild(adminState),
+        DragulaModule.forRoot()
         /* jhipster-needle-add-admin-module - JHipster will add admin modules here */
     ],
     declarations: [
@@ -41,7 +44,11 @@ import {
         JhiDocsComponent,
         JhiTrackerComponent,
         JhiMetricsMonitoringComponent,
-        JhiMetricsMonitoringModalComponent
+        JhiMetricsMonitoringModalComponent,
+        PaginaPruebaComponent
+    ],
+    providers: [
+        DragulaService
     ],
     entryComponents: [UserMgmtDeleteDialogComponent, JhiHealthModalComponent, JhiMetricsMonitoringModalComponent],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]

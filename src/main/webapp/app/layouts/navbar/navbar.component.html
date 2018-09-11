@@ -20,7 +20,7 @@
             </li>
             
             <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                <a class="nav-link" routerLink="/paginaPrueba" (click)="collapseNavbar()">
+                <a class="nav-link" routerLink="admin/jhi-pagina-prueba" (click)="collapseNavbar()">
                     <span>
                         <fa-icon class="fas fa-bookmark" ></fa-icon>
                         <span jhiTranslate="global.menu.prueba">Pagina Prueba</span>
@@ -28,6 +28,7 @@
                     </span>
                 </a>
             </li>
+            
 
             <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
             <li *ngSwitchCase="true" ngbDropdown class="nav-item dropdown pointer" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
